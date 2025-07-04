@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{e682c81a-06b0-4c44-be68-11d0c85f1faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Headers">
+      <UniqueIdentifier>{cfd6f9bd-150f-4df3-8246-82833666557e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprites">
+      <UniqueIdentifier>{220f2809-8b29-4090-b748-28fe8f256e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Sources">
+      <UniqueIdentifier>{32141020-54b3-493a-b236-985ec2c66bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprites\Headers">
+      <UniqueIdentifier>{1d3e4b3a-bcf0-473a-94e2-99d4c0a8da86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprites\Sources">
+      <UniqueIdentifier>{f3728ba8-a96a-4f1e-893c-46376a2c6df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEarth.cpp">
+      <Filter>Levels\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSpace.cpp">
+      <Filter>Levels\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMoon.cpp">
+      <Filter>Levels\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Levels\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionBox.cpp">
+      <Filter>Sprites\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSprite.cpp">
+      <Filter>Sprites\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Sprites\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Sprites\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>Sprites\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RocketStage.cpp">
+      <Filter>Sprites\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Sprites\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Sprites\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloud.cpp">
+      <Filter>Sprites\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Satellite.cpp">
+      <Filter>Sprites\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RocketSaveState.cpp">
+      <Filter>Sprites\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameRateHandler.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEarth.h">
+      <Filter>Levels\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypesAndConstants.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSpace.h">
+      <Filter>Levels\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelMoon.h">
+      <Filter>Levels\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Levels\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionBox.h">
+      <Filter>Sprites\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSprite.h">
+      <Filter>Sprites\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Sprites\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Flames.h">
+      <Filter>Sprites\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Sprites\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>Sprites\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RocketStage.h">
+      <Filter>Sprites\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Sprites\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Sprites\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud.h">
+      <Filter>Sprites\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Satellite.h">
+      <Filter>Sprites\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RocketSaveState.h">
+      <Filter>Sprites\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Apollo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Sprites\icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
