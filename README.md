@@ -6,4 +6,4 @@ The core focus of the game is on integrating real-world physics simulations into
 
 While I had several ideas to expand this into a more engaging gameplay experience, the project has since been discontinued and will no longer receive updates.
 
-All sprites and animations featured in the game were created by me.
+All sprites and animations featured in the game were created by myself.
